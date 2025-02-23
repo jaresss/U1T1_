@@ -1,0 +1,20 @@
+package seriedenumeros;
+
+/**
+ *
+ * @author carlo
+ */
+public class Fibonacci {
+    public static void main(String[] args) {
+        int n = 50;
+        long primero = 0, segundo = 1;
+        System.out.println("Los primeros " + n + " numeros de la sucesion de Fibonacci son:");
+        System.out.print(primero + " " + segundo);
+        for (int i = 2; i < n; i++) {
+            long siguiente = primero + segundo;
+            System.out.print(" " + siguiente);
+            primero = segundo;
+            segundo = siguiente;
+        }
+    }
+}
