@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Programa que calcula el pago mensual y total de una compra
  * utilizando una progresión geométrica, basado en el método de las 6D.
+ * auntor: @jareset
  */
 public class PagoMensual {
     public static void main(String[] args) {
